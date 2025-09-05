@@ -4,6 +4,20 @@
     <title>19 - Create a basic HTML form with a dropdown menu</title>
   </head>
   <body>
+    <h2>Contact Form</h2>
+
+  <form action="/submit" method="post">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required><br /><br />
+
+    <label for="topic">Select a topic:</label><br />
+    <select id="topic" name="topic" required>
+      <option value="">--Please choose an option--</option>
+      <option value="support">Support</option>
+      <option value="sales">Sales</option>
     <!-- Create an HTML form that allows users to select one option from a dropdown menu. -->
   </body>
 </html>
