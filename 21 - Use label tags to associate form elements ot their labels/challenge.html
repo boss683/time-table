@@ -2,18 +2,25 @@
 <html>
   <head>
     <title>
-      21 - Use label tags to associate form elements ot their labels
+     
+     21 - Use label tags to associate form elements ot their labels
     </title>
   </head>
   <body>
-    <!-- Use the label tag to associate form elements with their labels. -->
-    <!-- This can improve the usability and accessibility of your forms, so it's a good practice to use it whenever possible. -->
-    <form>
-      <input type="text" id="name" name="name" /><br />
-
-      <input type="email" id="email" name="email" /><br />
+     <form>
+      <label for="name">name:</label>
+      <input type="text" id="name" placeholder="enter your name" name="name" ><br /><br>
+<label for="email">Email:</label>
+      <input type="email" placeholder="enter your email ""><br /><br>
+      <label for="password">Password:</label>
+      <input type="password" placeholder="enter your password" required><br><br>
 
       <button type="submit">Submit</button>
-    </form>
+
+
+    <!-- Use the label tag to associate form elements with their labels. -->
+    <!-- This can improve the usability and accessibility of your forms, so it's a good practice to use it whenever possible. -->
+
+  
   </body>
 </html>
